@@ -15,6 +15,9 @@ export const NavHeader = () => {
                 <NavLink to='/treino-c'>
                     Treino-C
                 </NavLink>
+                <NavLink to='/treino-d'>
+                    Treino-D
+                </NavLink>
             </div>
         </nav>
     )

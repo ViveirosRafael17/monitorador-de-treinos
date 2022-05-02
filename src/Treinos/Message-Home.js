@@ -1,3 +1,5 @@
+import './Treino-Style.css';
+
 const messages = [
     'Se eu treinando já ta ruim, imagine se eu não treinar',
     'Lembre-se: Quanto mais frango você come menos frango você fica.',
@@ -12,6 +14,10 @@ const messages = [
 
 export const RandomMessage = () => {
     let randomIndex = Math.floor(Math.random() * messages.length);
-    return <h2> {messages[randomIndex]} </h2>
+    return (
+        <div className='message-home-box'>
+            <h2 className='message-home' > {messages[randomIndex]} </h2>
+        </div>
+    ) ;
 }
 
