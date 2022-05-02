@@ -15,7 +15,7 @@ const renderTraining = (index) => {
                 <div className="training-box">
                     <input type='checkbox' id={treino.name} />
                     <label for={treino.name} className="training-label" > 
-                        {treino.name} {treino.séries} séries {treinoRep} {treino.complemento}
+                        {treino.name} {treino.séries} séries {treinoRep} {treino.complemento}.
                     </label>
                     <br/>
                 </div>

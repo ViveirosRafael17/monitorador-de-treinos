@@ -11,13 +11,13 @@ export const dataTraining = [
                         name: 'Supino máquina',
                         séries: '2',
                         rep: '8, 10 e 12 repetições',
-                        complemento: '( Drop )',
+                        complemento: '(Drop)',
                     },
                     {
                         name: 'Cruscifixo no cross over',
                         séries: '4',
                         rep: 'até a falha',
-                        complemento: 'a cada série fazer flexão de braços até a falha',
+                        complemento: '(a cada série fazer flexão de braços até a falha)',
                     },
                     {
                         name: 'Voador',
@@ -52,7 +52,7 @@ export const dataTraining = [
                     {
                         name: 'Rosca direta',
                         séries: '4',
-                        rep: 'até 12',
+                        rep: 'até 12 repetições',
                         complemento: '',
                     },
                     {
@@ -61,6 +61,11 @@ export const dataTraining = [
                         rep: 'até a falha',
                         complemento: ' (rest pause) ',
                     },
+                ]
+            },
+            {
+                name: 'Extra',
+                exercicios: [
                     {
                         name: 'Panturrilha unilateral',
                         séries: '4',
@@ -94,13 +99,13 @@ export const dataTraining = [
                         name: 'Legg press',
                         séries: '4',
                         rep: '12 repetições',
-                        complemento: 'pés afastados',
+                        complemento: '(pés afastados)',
                     },
                     {
                         name: 'Extensora',
                         séries: '4',
                         rep: '15 repetições',
-                        complemento: 'segurar 1seg a cada repetição',
+                        complemento: '(segurar 1seg a cada repetição)',
                     },
                     {
                         name: 'Abdutora',
@@ -108,6 +113,11 @@ export const dataTraining = [
                         rep: '15 repetições',
                         complemento: '',
                     },
+                ]
+            },
+            {
+                name: 'Extra',
+                exercicios: [
                     {
                         name: 'Abdominal',
                         séries: '4',
@@ -129,7 +139,7 @@ export const dataTraining = [
                         name: 'Remada sentado',
                         séries: '4',
                         rep: 'até a falha',
-                        complemento: 'rest pause'
+                        complemento: '(rest pause)'
                     },
                     {
                         name: 'Pulldawn',
@@ -141,7 +151,7 @@ export const dataTraining = [
                         name: 'Remada alta',
                         séries: '3',
                         rep: 'até a falha',
-                        complemento: ' (Drop) ',
+                        complemento: '(Drop)',
                     }
                 ]
             },
@@ -160,11 +170,16 @@ export const dataTraining = [
                         rep: '12 repetições',
                         complemento: '',
                     },
+                ]
+            },
+            {
+                name: 'Extra',
+                exercicios: [
                     {
                         name: 'Panturrilha maquina',
                         séries: '4',
                         rep: 'até a falha',
-                        complemento: ' + panturrilha chão ',
+                        complemento: '+ panturrilha chão',
                     },
                     {
                         name: 'Abdominal infra na barra',
@@ -193,7 +208,7 @@ export const dataTraining = [
                         name: 'Flexora',
                         séries: '4',
                         rep: 'até a falha',
-                        complemento: ' + 10seg de isometria a cada repetição',
+                        complemento: '+ 10seg de isometria a cada repetição',
                     },
                     {
                         name: 'Flexora unilateral',
@@ -205,7 +220,7 @@ export const dataTraining = [
                         name: 'Elevação pelvica unilateral',
                         séries: '4',
                         rep: '15 a 20 repetições',
-                        complemento: ' + abdominal durante o descanso 15 a 20 repetições',
+                        complemento: '+ abdominal durante o descanso 15 a 20 repetições',
                     },
                     {
                         name: 'Abdutora',
@@ -217,7 +232,7 @@ export const dataTraining = [
                         name: 'Prancha abdominal',
                         séries: '4',
                         rep: '1min',
-                        complemento: ' + panturrilha em pé durante o descanso 30 repetições',
+                        complemento: '+ panturrilha em pé durante o descanso 30 repetições',
                     },
                     {
                         name: 'Abdução no cross',
