@@ -15,29 +15,38 @@ body {
     padding: 8px;
     max-width: 93%;
     margin: 10px auto 0px auto;
-    background-color: #131111;
-    color: aqua;
-    border: solid 4px black
+    background-color: seashell;
+    color: black;
+    border: solid 4px black;
+    border-radius: 15px;
+    position: relative;
+    z-index: 3;
 }
 
 .message-home-box {
     border: solid 4px black;
-    border-top: none;
     padding-top: 4px;
-    border-top-left-radius: 0px;
-    border-top-right-radius: 0px;
-    border-bottom-right-radius: 20px;
-    border-bottom-left-radius: 20px;
+    border-radius: 0px 0px 30px 30px;
     margin: auto;
     width: auto;
     max-width: 95%;
-    background-color: #131111;
+    background-color: seashell;
+    box-shadow: inset 0px 3px 10px 0px black;
+    position: relative;
+    bottom: 6px;
+    z-index: 2;
 }
 
 .message-home {
-    color: white;
+    color: black;
     margin: 10px 5px;
     text-align: center;
+}
+
+.date {
+    text-align: center;
+    width: 100%;
+    margin:10px auto;
 }
 
 .suggestion-training {
@@ -45,29 +54,42 @@ body {
     border: solid black 4px;
     padding: 10px;
     width: 90%;
-    margin: 25px auto;
-    background-color: #131111;
+    margin: 10px auto 25px auto;
+    background-color: seashell;
     box-shadow: 4px 5px 3px 0px;
+    color: black;
 }
 
 .suggestion-training a {
     text-decoration: none;
     padding: 5px;
-    border: solid 2px black;
-    box-shadow: 0px 0px 2px 1px black,
-    inset 0px 0px 2px 0px;
+    border: solid 2px white;
     margin: 2px 5px;
     color: white;
+    background-color: #1f1b1b;
+    z-index: 1;
+    position: relative;
+    bottom: 3px;
+    right: 3px;
+    box-shadow: 3px 3px 1px 0px black;
+}
+
+.suggestion-link.active {
+    color: aqua;
+    border: solid 2px aqua;
+    position: relative;
+    bottom: 0px;
+    right: 0px;
+    box-shadow: 0px 0px 0px 0px;
 }
 
 .suggestion-training a:hover {
     text-decoration: none;
     padding: 5px;
-    border: solid 2px white;
-    box-shadow: 0px 0px 2px 1px aqua,
-    inset 0px 0px 2px 0px;
+    border: solid 2px royalblue;
     margin: 2px 5px;
-    color: aqua;
+    color: royalblue;
+    background-color: #1f1b1b;
 }
 
 .header-trainings {
@@ -104,6 +126,12 @@ body {
     box-shadow: 0px 0px 10px 2px aqua,
     inset 0px 0px 3px 0px aqua;
     border: solid 2px white;
+}
+
+.active {
+    color: aqua;
+    box-shadow: 0px 0px 10px 2px aqua,
+    inset 0px 0px 3px 0px aqua;
 }
 
 .title-day-training {
@@ -171,9 +199,20 @@ input[type="checkbox"]:checked + label {
         font-size: large;
     }
 
+    .title-header-page {
+        font-size: 30px;
+    }
+
     .header-nav-box a {
         font-size: 15px;
         padding: 10px;
+        box-shadow: 0px 0px 5px 1px black,
+        inset 0px 0px 4px 0px;
+    }
+
+    .header-nav-box a:hover {
+        box-shadow: 0px 0px 5px 1px aqua,
+        inset 0px 0px 4px 0px;
     }
 
     .training-label {

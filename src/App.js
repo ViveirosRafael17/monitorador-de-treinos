@@ -4,6 +4,7 @@ import { RandomMessage } from "./Treinos/Message-Home";
 import { SuggestionTraining } from "./Treinos/Suggestion-Training";
 import { NavHeader } from "./Treinos/NavHeader";
 import { TreinoA, TreinoB, TreinoC, TreinoD } from "./Treinos/Treinos";
+import { Clock } from './Other Components/Clock-and-Date';
 import './Treinos/Treino-Style.css'
 
 export const App = () => {
@@ -13,6 +14,7 @@ export const App = () => {
           <header>
             <h1 className="title-header-page"> Treino de hoje </h1>
             <RandomMessage />
+            <Clock />
             <SuggestionTraining />
             <NavHeader /> 
           </header>

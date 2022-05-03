@@ -7,7 +7,7 @@ const messages = [
     'Se aparecer pedras em seu caminho, levante-as e faça 4 séries de 10 repetições.',
     'Se for pra sofrer que seja treinando, pelo menos assim você tem resultados.',
     'Seja mais forte que sua descupas.',
-    'Se achar que o tempo ta pasando rápido, faça 1 minuto de prancha.',
+    'Se acha que o tempo passa rápido, tente fazer 1 minuto de prancha.',
     'Que todas as dores virem músculos',
     'A vida começa com o final da sua zona de conforto.'
 ];
